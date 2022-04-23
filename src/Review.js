@@ -1,4 +1,8 @@
 import React from "react";
+import Characters from "./Characters";
+import Arrays from "./Arrays";
+import Objects from "./Objects";
+import Loops from "./Loops";
 
 export default function Review() {
   //let time = prompt("For how many months have you not coded?");
@@ -15,6 +19,25 @@ export default function Review() {
         so I'm just going to review what I've learned so far.
       </div>
       <div>Since I'm a writer, I'm going to make this writer based</div>
+      <hr />
+
+      <div className="m-5">
+        Right now I'm going to review the skill of using properties
+      </div>
+      <Characters name="Myla Maluo" />
+      <Characters name="Dorin Marko" />
+      <Characters name="Christine Joyce" />
+      <Characters name="Jason Praise" />
+      <hr />
+      <div>What about when the names are in an array?</div>
+      <Arrays />
+      <hr />
+      <div>Now let's do objects</div>
+      <div></div>
+      <Objects />
+      <hr />
+      <div>Now let's do some loops</div>
+      <Loops />
     </div>
   );
 }
